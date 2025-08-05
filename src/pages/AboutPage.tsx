@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle2, Award, Users, GraduationCap, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import ceoImg from '../assets/ceo.png';
 const AboutPage: React.FC = () => {
   return (
     <>
@@ -191,7 +191,7 @@ const AboutPage: React.FC = () => {
               {
                 name: 'I. SAKHO',
                 role: 'Founder & CEO',
-                image: 'https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                image: ceoImg,
                 description: 'With over 15 years of experience in cybersecurity, I. SAKHO leads our team with vision and expertise.',
               },
               {

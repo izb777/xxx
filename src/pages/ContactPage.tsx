@@ -37,10 +37,10 @@ const ContactPage: React.FC = () => {
                     <div>
                       <p className="font-bold text-blue-900 mb-1">Email</p>
                       <a 
-                        href="mailto:izbsk@protonmail.com" 
+                        href="mailto:ismaila.sakho@stellar-consulting.tech" 
                         className="text-gray-600 hover:text-blue-600 transition-colors"
                       >
-                        izbsk@protonmail.com
+                        ismaila.sakho@stellar-consulting.tech
                       </a>
                     </div>
                   </li>
@@ -65,8 +65,9 @@ const ContactPage: React.FC = () => {
                     <div>
                       <p className="font-bold text-blue-900 mb-1">Location</p>
                       <p className="text-gray-600">
-                        Dakar, Senegal
+                        Dakar - Paris
                       </p>
+                        <p className="text-gray-600">Paris, France</p>
                     </div>
                   </li>
                 </ul>
