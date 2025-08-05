@@ -5,7 +5,7 @@ import TestimonialCard from '../components/TestimonialCard';
 import Stats from '../components/Stats';
 import { Shield, Server, Search, FileCode, CheckCircle2, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logoImg from '../assets/logo.png';
+
 const HomePage: React.FC = () => {
   const services = [
     {

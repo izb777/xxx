@@ -28,6 +28,20 @@ export default {
         sans: ['Inter', 'sans-serif'],
         serif: ['Montserrat', 'serif'],
       },
+      spacing: {
+        '88': '22rem', // 352px (320px * 1.1)
+      },
+      animation: {
+        'spin-slow': 'spin-slow 20s linear infinite',
+        'spin-reverse': 'spin-reverse 15s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'float-delayed': 'float-delayed 8s ease-in-out infinite',
+        'float-slow': 'float-slow 10s ease-in-out infinite',
+        'orbit': 'orbit 25s linear infinite',
+        'orbit-reverse': 'orbit-reverse 30s linear infinite',
+        'orbit-slow': 'orbit-slow 40s linear infinite',
+        'orbit-fast': 'orbit-fast 15s linear infinite',
+      },
     },
   },
   plugins: [],
