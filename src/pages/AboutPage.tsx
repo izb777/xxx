@@ -2,6 +2,7 @@ import React from 'react';
 import { CheckCircle2, Award, Users, GraduationCap, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ceoImg from '../assets/ceo.png';
+import consultantImg from '../assets/consultant.png';
 const AboutPage: React.FC = () => {
   return (
     <>
@@ -109,7 +110,7 @@ const AboutPage: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-6 -left-6 w-full h-full border-2 border-teal-400 rounded-lg"></div>
                 <img 
-                  src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  src={ceoImg} 
                   alt="CEO" 
                   className="rounded-lg relative z-10"
                 />
@@ -195,10 +196,10 @@ const AboutPage: React.FC = () => {
                 description: 'With over 15 years of experience in cybersecurity, I. SAKHO leads our team with vision and expertise.',
               },
               {
-                name: 'Marie Diop',
-                role: 'Chief Security Officer',
-                image: 'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                description: 'Marie brings 12 years of security experience from leading financial institutions in Europe.',
+                name: 'Mamadou KA',
+                role: 'IT Consultant',
+                image: consultantImg,
+                description: 'Mamadou specializes in IT consulting, helping clients implement secure and efficient technology solutions across industries.',
               },
               {
                 name: 'Ousmane Ndiaye',
