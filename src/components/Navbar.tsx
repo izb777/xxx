@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Shield, Menu, X } from 'lucide-react';
+// import logoImg from './../assets/logo.png';
 
 interface NavbarProps {
   scrolled: boolean;
@@ -45,6 +46,11 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
             }`}
           >
             STELLAR CONSULTING
+            {/* <img 
+              src={logoImg} 
+              alt="Stellar Consulting Logo"
+              className="h-8 w-8 ml-2"
+            /> */}
           </span>
         </Link>
 

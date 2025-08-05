@@ -3,6 +3,7 @@ import { CheckCircle2, Award, Users, GraduationCap, ArrowRight } from 'lucide-re
 import { Link } from 'react-router-dom';
 import ceoImg from '../assets/ceo.png';
 import consultantImg from '../assets/consultant.png';
+import consultantImg2 from '../assets/consultantit2.png';
 const AboutPage: React.FC = () => {
   return (
     <>
@@ -202,10 +203,10 @@ const AboutPage: React.FC = () => {
                 description: 'Mamadou specializes in IT consulting, helping clients implement secure and efficient technology solutions across industries.',
               },
               {
-                name: 'Ousmane Ndiaye',
-                role: 'IT Project Director',
-                image: 'https://images.pexels.com/photos/3777955/pexels-photo-3777955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                description: 'Ousmane\'s methodical approach ensures our projects are delivered on time and within budget.',
+                name: 'R. Marques',
+                role: 'IT Consultant',
+                image: consultantImg2,
+                description: 'R. Marques\'s methodical approach ensures our projects are delivered on time and within budget.',
               },
               {
                 name: 'Sophie Mensah',
