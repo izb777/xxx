@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import logoImg from './../assets/logo.png';
+import { Shield, Menu, X } from 'lucide-react';
 
 interface NavbarProps {
   scrolled: boolean;
@@ -34,14 +33,12 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full overflow-hidden bg-white shadow-sm border border-gray-200">
-            <img 
-              src={logoImg} 
-              alt="Stellar Consulting Logo"
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <Link to="/" className="flex items-center gap-2">
+          <Shield 
+            className={`h-8 w-8 transition-colors ${
+              scrolled ? 'text-blue-900' : 'text-white'
+            }`} 
+          />
           <span 
             className={`font-serif text-xl font-bold transition-colors ${
               scrolled ? 'text-blue-900' : 'text-white'
