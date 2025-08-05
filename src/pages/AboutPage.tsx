@@ -196,7 +196,7 @@ const AboutPage: React.FC = () => {
                 description: 'With over 15 years of experience in cybersecurity, I. SAKHO leads our team with vision and expertise.',
               },
               {
-                name: 'Mamadou KA',
+                name: 'M. KA',
                 role: 'IT Consultant',
                 image: consultantImg,
                 description: 'Mamadou specializes in IT consulting, helping clients implement secure and efficient technology solutions across industries.',
