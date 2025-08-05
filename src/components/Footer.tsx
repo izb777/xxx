@@ -93,11 +93,11 @@ const Footer: React.FC = () => {
                 </li>
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-teal-400 flex-shrink-0 mt-1" />
-                <span>dakar centre ville place de l'indépendance, Dakar</span>
+                <span>dakar centre ville place de l'indépendance, Dakar, Sénégal</span>
               </li>
                 <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-teal-400 flex-shrink-0 mt-1" />
-                <span>Avenue Saxe 75, Paris</span>
+                <span>26 Avenue de Saxe 75007, Paris, France</span>
               </li>
             </ul>
           </div>
