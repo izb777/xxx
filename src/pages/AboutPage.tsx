@@ -3,6 +3,7 @@ import { CheckCircle2, Award, Users, GraduationCap, ArrowRight } from 'lucide-re
 import { Link } from 'react-router-dom';
 import ceoImg from '../assets/ceo.png';
 import consultantImg from '../assets/consultant.png';
+import financialManagerImg from '../assets/financial-manager.png';
 import consultantImg2 from '../assets/consultantit2.png';
 const AboutPage: React.FC = () => {
   return (
@@ -203,16 +204,16 @@ const AboutPage: React.FC = () => {
                 description: 'Mamadou specializes in IT consulting, helping clients implement secure and efficient technology solutions across industries.',
               },
               {
-                name: 'R. Marques',
+                name: 'R. MARQUES',
                 role: 'IT Consultant',
                 image: consultantImg2,
                 description: 'R. Marques\'s methodical approach ensures our projects are delivered on time and within budget.',
               },
               {
-                name: 'Sophie Mensah',
-                role: 'Security Analyst Lead',
-                image: 'https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                description: 'Sophie leads our security analysis team with her in-depth knowledge of threat intelligence.',
+                name: 'M. SAKHO',
+                role: 'Financial Manager',
+                image: financialManagerImg,
+                description: 'M. SAKHO leads our financial team with his expertise in budget management and financial analysis.',
               },
             ].map((member, index) => (
               <div 
